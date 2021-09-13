@@ -27,6 +27,7 @@ const Container = styled.div`
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
   border: none;
   padding: 5%;
+  text-align: center;
 `;
 
 const Logo = styled.img`
