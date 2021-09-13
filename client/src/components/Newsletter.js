@@ -165,18 +165,9 @@ const ButtonsDiv = styled.div`
 
   .submit {
     background-color: #fac832;
-    font-size: large;
     color: white;
     width: 50%;
-    min-width: fit-content;
-    height: fit-content;
     border: none;
-    border-radius: 3px;
-    margin-right: 20px;
-    padding: 4%;
-    @media (max-width: 1024px) {
-      font-size: 14px;
-    }
     :hover {
       background-color: #d3aa30;
     }
@@ -185,17 +176,10 @@ const ButtonsDiv = styled.div`
   .reset {
     background-color: white;
     min-width: fit-content;
-    font-size: large;
     color: gray;
     width: 30%;
-    height: fit-content;
-    padding: 4%;
     border: 1px solid gray;
-    border-radius: 3px;
-    margin-right: 20px;
-    @media (max-width: 1024px) {
-      font-size: 14px;
-    }
+
     :hover {
       background-color: #e7e7e7;
     }
