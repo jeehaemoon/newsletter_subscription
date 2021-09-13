@@ -126,8 +126,12 @@ const Form = styled.form`
   box-shadow: 0px 4px 12px rgba(0, 0, 0, 1);
   border: none;
 
+  @media (min-width: 1440px) {
+    width: 800px;
+    height: fit-content;
+  }
   @media (max-width: 1024px) {
-    min-height: 40%;
+    height: fit-content;
   }
   @media (max-width: 767px) {
     height: fit-content;
@@ -192,6 +196,14 @@ const Img = styled.img`
 
   @media (max-width: 767px) {
     display: none;
+  }
+
+  @media (min-width: 1440px) {
+    width: 300px;
+  }
+
+  @media (max-width: 1024px) {
+    width: 500px;
   }
 `;
 
